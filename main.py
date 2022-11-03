@@ -20,11 +20,11 @@ float_total = float(total)
 int_pplPaying = int(pplPaying)
 
 if tip == str(15):
-    results = float_total * 1.15
+    results = round(float_total * 1.15, 3)
 if tip == str(18):
-    results = float_total * 1.18
+    results = round(float_total * 1.18, 3)
 if tip == str(20):
-    results = float_total * 1.20
+    results = round(float_total * 1.20, 3)
 else:
     print("Please try again")
     
