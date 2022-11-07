@@ -31,11 +31,23 @@ print("Hello Alexander")
 # results /= int_pplPaying
 # print(f"Total pay for each person is {results}")
 
-print("Welcome to Tip Calculator.")
-total = float(input("What's the total cost?"))
-pplPaying = int(input("Bill will be split in how many ways?"))
-tip = int(input("Tip 15%, 18%, 20%?"))
+# print("Welcome to Tip Calculator.")
+# total = float(input("What's the total cost?"))
+# pplPaying = int(input("Bill will be split in how many ways?"))
+# tip = int(input("Tip 15%, 18%, 20%?"))
 
-bill = tip / 100 * total + total
-bill /= pplPaying
-print(f"Total pay for each person is {bill}")
+# bill = tip / 100 * total + total
+# bill /= pplPaying
+# print(f"Total pay for each person is {bill}")
+
+# print("Area of a Rectangle")
+# l = float(input("Enter the Length "))
+# w = float(input("Enter the Width "))
+# area = (l * w)
+# print(f"The area is {area}")
+
+print("Area of Circle")
+r = float(input("Enter the Radius "))
+pie = 3.14
+area = pie * r**2
+print(f"The area of your circle is {area}")
