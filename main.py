@@ -32,9 +32,9 @@ print("Hello Alexander")
 # print(f"Total pay for each person is {results}")
 
 # print("Welcome to Tip Calculator.")
-# total = float(input("What's the total cost?"))
-# pplPaying = int(input("Bill will be split in how many ways?"))
-# tip = int(input("Tip 15%, 18%, 20%?"))
+# total = float(input("What's the total cost? $"))
+# pplPaying = int(input("Bill will be split in how many ways? "))
+# tip = int(input("Tip 15%, 18%, 20%? "))
 
 # bill = tip / 100 * total + total
 # bill /= pplPaying
@@ -46,8 +46,32 @@ print("Hello Alexander")
 # area = (l * w)
 # print(f"The area is {area}")
 
-print("Area of Circle")
-r = float(input("Enter the Radius "))
-pie = 3.14
-area = pie * r**2
-print(f"The area of your circle is {area}")
+# print("Area of Circle")
+# r = float(input("Enter the Radius "))
+# pie = 3.14
+# area = pie * r**2
+# print(f"The area of your circle is {area}")
+
+######## Conditions If/Else Statements ########
+# if condition:
+#     do this
+# else:
+#     do this
+
+# print("Are you tall enough for the rollercoaster?")
+# height = int(input("What is your height in cm? "))
+
+# if height > 120:
+#     print("You can ride the rollercoaster!")
+# else:
+#     print("Sorry, you're too short")
+    
+# Modulo: Even or Odd
+print("Check if your number is Even or Odd")
+number = float(input("Please enter a number "))
+
+if number % 2 == 0:
+    print("Your number is Even")
+else:
+    print("Your number is Odd")
+
