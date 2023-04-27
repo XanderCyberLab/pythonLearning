@@ -1,0 +1,60 @@
+You're an adventurer searching for a lost treasure that's been rumored to be hidden deep in the jungle. You have a map that you believe will lead you to the treasure. As you journey through the dense jungle, you come across a fork in the path. The map indicates that the treasure could be on either path. Do you:
+
+1) Take the path to the left
+2) Take the path to the right
+
+If you choose 1, continue reading:
+
+The path winds deeper into the jungle until you come across a rickety old bridge over a deep ravine. The map indicates that the treasure is on the other side. Do you:
+
+1) Cross the bridge
+2) Find another way around
+
+If you choose 1, continue reading:
+
+You carefully cross the bridge, but as you reach the other side, you trigger a trap and a large pit opens up beneath your feet. You fall into the pit and are unable to climb out. Unfortunately, this is the end of your adventure.
+
+If you choose 2, continue reading:
+
+You decide to find another way around the ravine. You follow the river upstream and find a shallow spot where you can cross. As you continue down the path, you come across a hidden temple. The map indicates that the treasure is inside. Do you:
+
+1) Enter the temple
+2) Keep walking
+
+If you choose 1, continue reading:
+
+You enter the temple and find yourself in a large room with multiple doors. Each door has a different symbol on it. The map indicates that the treasure is behind one of the doors, but the symbol is not clear. Do you:
+
+1) Choose the door with the snake symbol
+2) Choose the door with the sun symbol
+3) Choose the door with the moon symbol
+
+If you choose 1, continue reading:
+
+You open the door with the snake symbol and find yourself face-to-face with a giant snake guarding the treasure. Do you:
+
+1) Fight the snake
+2) Try to sneak past it
+
+If you choose 1, continue reading:
+
+You fight the snake and emerge victorious, claiming the treasure as your own. Congratulations, you have successfully completed your adventure and found the lost treasure.
+
+If you choose 2, continue reading:
+
+You try to sneak past the snake, but it hears you and attacks. Unfortunately, this is the end of your adventure.
+
+If you choose 2, continue reading:
+
+You decide to keep walking and eventually come across a group of bandits who demand that you give them the map. Do you:
+
+1) Refuse to give them the map and fight them
+2) Give them the map
+
+If you choose 1, continue reading:
+
+You refuse to give them the map and engage in a battle. You emerge victorious and continue on your adventure. As you follow the map, you eventually find the lost treasure. Congratulations, you have successfully completed your adventure and found the lost treasure.
+
+If you choose 2, continue reading:
+
+You give them the map and they take off, leaving you stranded in the jungle. Unfortunately, this is the end of your adventure.
