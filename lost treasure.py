@@ -8,11 +8,10 @@
 # 2) Take the path to the right
 
 print("Welcome to Lost Treasure")
-name = input("Please enter your name: ")
 game_run = True
 
 while game_run == True:
-    print(f"Hello {name}! You\'re an adventurer searching for a lost treasure that\'s been rumored to be hidden deep in the jungle. You have a map that you believe will lead you to the treasure. As you journey through the dense jungle, you come across a fork in the path. The map indicates that the treasure could be on either path. Do you: ")
+    print("You\'re an adventurer searching for a lost treasure that\'s been rumored to be hidden deep in the jungle. You have a map that you believe will lead you to the treasure. As you journey through the dense jungle, you come across a fork in the path. The map indicates that the treasure could be on either path. Do you: ")
 
     first_choice = int(input("1) Take the path to the left\n2) Take the path to the right"))
 
