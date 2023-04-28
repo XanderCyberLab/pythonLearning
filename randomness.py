@@ -27,9 +27,16 @@ import random
 # print(states)
 
 #Who's paying for dinner
-names = input("Please list everybody's name seperated by a comma ")
-names_list = names.split(", ")
+# names = input("Please list everybody's name seperated by a comma ")
+# names_list = names.split(", ")
 
-random_payer = random.randint(0, len(names_list) - 1)
+# random_payer = random.randint(0, len(names_list) - 1)
 
-print(f"{names_list[random_payer]} is going to buy the meal today!")
+# print(f"{names_list[random_payer]} is going to buy the meal today!")
+
+
+# paying = input("Who is paying? ")
+# eaters = paying.split(", ")
+
+# winner = random.randint(0, len(eaters) - 1)
+# print(f"{eaters[winner]} is paying today!")
