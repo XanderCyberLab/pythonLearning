@@ -1,7 +1,4 @@
 import random
-player_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper, or 2 for Scissors.\n"))
-computer_choice = random.randint(0,2)
-
 
 rock = '''
     _______
@@ -30,20 +27,31 @@ scissors = '''
 ---.__(___)
 '''
 
+# print("Player choice: ")
+# if player_choice == 0:
+#     print(rock)    
+# if player_choice == 1:
+#     print(paper)    
+# if player_choice == 2:
+#     print(scissors)
+# print("Computer choice: ")
+# if computer_choice == 0:
+#     print(rock)
+# if computer_choice == 1:
+#     print(paper)
+# if computer_choice == 2:
+#     print(scissors)
+images = [rock, paper, scissors]
+
+player_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper, or 2 for Scissors.\n"))
+
 print("Player choice: ")
-if player_choice == 0:
-    print(rock)    
-if player_choice == 1:
-    print(paper)    
-if player_choice == 2:
-    print(scissors)
+print(images[player_choice])
+computer_choice = random.randint(0,2)
 print("Computer choice: ")
-if computer_choice == 0:
-    print(rock)
-if computer_choice == 1:
-    print(paper)
-if computer_choice == 2:
-    print(scissors)
+print(images[computer_choice])
+
+
 
 if player_choice == computer_choice:
     print("Tie!")
