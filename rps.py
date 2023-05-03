@@ -45,6 +45,12 @@ images = [rock, paper, scissors]
 
 player_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper, or 2 for Scissors.\n"))
 
+if player_choice >= 3 or player_choice < 0: 
+    print("You typed an invalid number, try again!")
+    exit()  
+
+
+
 print("Player choice: ")
 print(images[player_choice])
 computer_choice = random.randint(0,2)
@@ -70,6 +76,3 @@ elif player_choice == 2:
         print("You lose! Rock smashes scissors.")
     else:
         print("You win! Scissors cut paper.")
-else:
-    print("Invalid choice. Please enter either rock, paper, or scissors.")
-    
