@@ -42,12 +42,13 @@ scissors = '''
 # if computer_choice == 2:
 #     print(scissors)
 images = [rock, paper, scissors]
-
+#game_running = True
 player_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper, or 2 for Scissors.\n"))
+
 
 if player_choice >= 3 or player_choice < 0: 
     print("You typed an invalid number, try again!")
-    exit()  
+    game_running = False
 else:
     print("Player choice: ")
     print(images[player_choice])
